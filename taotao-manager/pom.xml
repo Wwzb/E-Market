@@ -20,5 +20,6 @@
   
 	<modules>
 		<module>taotao-manager-pojo</module>
+		<module>taotao-manager-mapper</module>
 	</modules>
 </project>
