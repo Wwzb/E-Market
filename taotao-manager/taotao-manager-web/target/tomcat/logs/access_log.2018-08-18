@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:15:33:28 +0800] "GET / HTTP/1.1" 200 2475 http-bio-8080-exec-1 672
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:15:33:28 +0800] "GET /favicon.ico HTTP/1.1" 404 997 http-bio-8080-exec-7 16
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:15:33:30 +0800] "GET /item-add?_=1534577608167 HTTP/1.1" 200 4622 http-bio-8080-exec-8 69
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:15:33:30 +0800] "GET /js/kindeditor-4.1.10/kindeditor-all-min.js?_=1534577608168 HTTP/1.1" 200 179915 http-bio-8080-exec-9 9
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:15:33:30 +0800] "GET /js/kindeditor-4.1.10/lang/zh_CN.js?_=1534577608169 HTTP/1.1" 200 8488 http-bio-8080-exec-10 6
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:15:33:32 +0800] "GET /js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf?preventswfcaching=1534577612796 HTTP/1.1" 200 12787 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [18/Aug/2018:15:33:40 +0800] "POST /pic/upload?dir=image HTTP/1.1" 200 80 http-bio-8080-exec-10 144
