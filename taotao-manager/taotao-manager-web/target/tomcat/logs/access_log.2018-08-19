@@ -1,15 +1,2 @@
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:25 +0800] "GET / HTTP/1.1" 200 2475 http-bio-8080-exec-1 526
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:25 +0800] "GET /favicon.ico HTTP/1.1" 404 997 http-bio-8080-exec-7 13
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:29 +0800] "GET /item-param-list?_=1534649425592 HTTP/1.1" 200 2784 http-bio-8080-exec-8 52
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:30 +0800] "GET /item/param/list?page=1&rows=30 HTTP/1.1" 404 949 http-bio-8080-exec-9 2
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:31 +0800] "GET /item-param-add?_=1534649425593 HTTP/1.1" 200 3508 http-bio-8080-exec-10 58
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:31 +0800] "GET /item-param-add?_=1534649425594 HTTP/1.1" 200 3508 http-bio-8080-exec-2 57
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:33 +0800] "POST /item/cat/list HTTP/1.1" 200 977 http-bio-8080-exec-1 997
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:39 +0800] "POST /item/cat/list HTTP/1.1" 200 313 http-bio-8080-exec-1 6
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:49 +0800] "POST /item/cat/list HTTP/1.1" 200 977 http-bio-8080-exec-1 10
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:51 +0800] "POST /item/cat/list HTTP/1.1" 200 313 http-bio-8080-exec-1 6
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:30:59 +0800] "POST /item/cat/list HTTP/1.1" 200 259 http-bio-8080-exec-1 6
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:31:01 +0800] "POST /item/cat/list HTTP/1.1" 200 730 http-bio-8080-exec-1 7
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:31:02 +0800] "GET /item/param/query/itemcatid/127 HTTP/1.1" 200 48 http-bio-8080-exec-6 13
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:32:37 +0800] "POST /item/param/save/127 HTTP/1.1" 200 48 http-bio-8080-exec-4 251
-0:0:0:0:0:0:0:1 - - [19/Aug/2018:11:32:38 +0800] "GET /item/param/list?page=1&rows=30 HTTP/1.1" 404 949 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [19/Aug/2018:12:54:32 +0800] "GET / HTTP/1.1" 200 2475 http-bio-8080-exec-1 497
+0:0:0:0:0:0:0:1 - - [19/Aug/2018:12:54:44 +0800] "GET /showitem/153465322213558 HTTP/1.1" 200 1012 http-bio-8080-exec-6 1104
