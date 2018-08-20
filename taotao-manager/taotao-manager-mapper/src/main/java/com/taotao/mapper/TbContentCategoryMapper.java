@@ -1,5 +1,6 @@
 package com.taotao.mapper;
 
+import com.taotao.pojo.TbContent;
 import com.taotao.pojo.TbContentCategory;
 import com.taotao.pojo.TbContentCategoryExample;
 import java.util.List;
@@ -26,5 +27,5 @@ public interface TbContentCategoryMapper {
 
     int updateByPrimaryKeySelective(TbContentCategory record);
 
-    int updateByPrimaryKey(TbContentCategory record);
+    int updateByPrimaryKey(TbContentCategory parentCategory);
 }
