@@ -17,4 +17,6 @@ public interface ContentService {
 
     //删除内容
     TaotaoResult deleteContent(@RequestParam("ids") long[] itemId);
+    
+    
 }
