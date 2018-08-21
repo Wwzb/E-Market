@@ -4,10 +4,13 @@ import java.io.IOException;
 import java.util.HashSet;
 
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisCluster;
+import redis.clients.jedis.JedisPool;
 
 public class JedisTest {
 	@Test
@@ -39,6 +42,30 @@ public class JedisTest {
 		System.out.println(string);
 		
 		cluster.close();
+	}
+	/**
+	 * 单机版测试
+	 * <p>Title: testSpringJedisSingle</p>
+	 * <p>Description: </p>
+	 */
+	@Test
+	public void testSpringJedisSingle() {
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
+		JedisPool pool = (JedisPool) applicationContext.getBean("redisClient");
+		Jedis jedis = pool.getResource();
+		String string = jedis.get("key1");
+		System.out.println(string);
+		jedis.close();
+		pool.close();
+	}
+	
+	@Test
+	public void testSpringJedisCluster() throws IOException {
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
+		JedisCluster jedisCluster =  (JedisCluster) applicationContext.getBean("redisClient2");
+		String string = jedisCluster.get("key1");
+		System.out.println(string);
+		jedisCluster.close();
 	}
 
 

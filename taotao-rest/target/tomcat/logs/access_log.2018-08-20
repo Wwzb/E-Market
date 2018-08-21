@@ -1,3 +1,0 @@
-127.0.0.1 - - [20/Aug/2018:21:19:52 +0800] "GET /rest/content/list/89 HTTP/1.1" 200 1258 http-bio-8081-exec-5 933
-0:0:0:0:0:0:0:1 - - [20/Aug/2018:21:19:55 +0800] "GET /rest/itemcat/list?callback=category.getDataService HTTP/1.1" 200 30450 http-bio-8081-exec-1 539
-0:0:0:0:0:0:0:1 - - [20/Aug/2018:21:20:20 +0800] "GET /rest/itemcat/list?callback=category.getDataService HTTP/1.1" 200 30450 http-bio-8081-exec-7 361
