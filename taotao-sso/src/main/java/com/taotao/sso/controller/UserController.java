@@ -119,21 +119,24 @@ public class UserController {
 		
 	}
 	
-    @RequestMapping("/logout/{token}")  //看好自己的URL
-    public Object logOut(@PathVariable String token, String callback) {
-        TaotaoResult result = null;
-        try {
-            result = userService.userLogout(token);
-        } catch (Exception e) {
-            e.printStackTrace();
-            result = TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
-        }
-        if (StringUtils.isBlank(callback)) {
-            return "login"; //退出登录跳转至登录界面
-        }else {
-            MappingJacksonValue mappingJackValue = new MappingJacksonValue(result);
-            mappingJackValue.setJsonpFunction(callback);
-            return mappingJackValue;
-        }
-    }
+
+	@RequestMapping("/logout/{token}")
+	@ResponseBody
+	public Object  UserLogin(@PathVariable String token, String callback){
+		TaotaoResult result = null;
+		    try {
+		            result = userService.userLogout(token);
+		        } catch (Exception e) {
+		            e.printStackTrace();
+		            result = TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
+		        }
+		     if (StringUtils.isBlank(callback)) {
+		            return "login"; //退出登录跳转至登录界面
+		        }else {
+		  MappingJacksonValue mappingJackValue = new MappingJacksonValue(result);
+		  mappingJackValue.setJsonpFunction(callback);
+		  return mappingJackValue;
+		        }
+			}
+
 }

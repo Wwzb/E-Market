@@ -1,23 +1,92 @@
-2018-08-23 15:37:12,734 [http-bio-8082-exec-7] [org.apache.http.wire]-[DEBUG] http-outgoing-4 << "Transfer-Encoding: chunked[\r][\n]"
-2018-08-23 15:37:12,734 [http-bio-8082-exec-7] [org.apache.http.wire]-[DEBUG] http-outgoing-4 << "Date: Thu, 23 Aug 2018 07:37:12 GMT[\r][\n]"
-2018-08-23 15:37:12,734 [http-bio-8082-exec-7] [org.apache.http.wire]-[DEBUG] http-outgoing-4 << "[\r][\n]"
-2018-08-23 15:37:12,734 [http-bio-8082-exec-7] [org.apache.http.wire]-[DEBUG] http-outgoing-4 << "5f6[\r][\n]"
-2018-08-23 15:37:12,735 [http-bio-8082-exec-7] [org.apache.http.wire]-[DEBUG] http-outgoing-4 << "{"status":200,"msg":"OK","data":[{"id":33,"categoryId":89,"title":"[0xe5][0xb9][0xbf][0xe5][0x91][0x8a]1","subTitle":"[0xe5][0xb9][0xbf][0xe5][0x91][0x8a]1","titleDesc":"[0xe5][0xb9][0xbf][0xe5][0x91][0x8a]1","url":"http://www.baidu.com","pic":"http://192.168.18.135/images/2018/08/20/1534744021815484.jpg","pic2":"http://192.168.18.135/images/2018/08/20/1534744027224516.jpg","created":1534744037000,"updated":1534744037000,"content":null},{"id":34,"categoryId":89,"title":"[0xe5][0xb9][0xbf][0xe5][0x91][0x8a]2","subTitle":"[0xe5][0xb9][0xbf][0xe5][0x91][0x8a]2","titleDesc":"[0xe5][0xb9][0xbf][0xe5][0x91][0x8a]2","url":"","pic":"http://192.168.18.135/images/2018/08/20/1534744055831839.jpg","pic2":"http://192.168.18.135/images/2018/08/20/1534744060287997.jpg","created":1534744062000,"updated":1534744062000,"content":null},{"id":35,"categoryId":89,"title":"[0xe5][0x9b][0xbe][0xe7][0x89][0x87]3","subTitle":"[0xe5][0x9b][0xbe][0xe7][0x89][0x87]3","titleDesc":"[0xe5][0x9b][0xbe][0xe7][0x89][0x87]3","url":"","pic":"http://192.168.18.135/images/2018/08/20/1534744075289915.jpg","pic2":"http://192.168.18.135/images/2018/08/20/1534744079481418.jpg","created":1534744082000,"updated":1534744082000,"content":null},{"id":36,"categoryId":89,"title":"[0xe5][0x9b][0xbe][0xe7][0x89][0x87]4","subTitle":"[0xe5][0x9b][0xbe][0xe7][0x89][0x87]4","titleDesc":"[0xe5][0x9b][0xbe][0xe7][0x89][0x87]4","url":"","pic":"http://192.168.18.135/images/2018/08/20/1534744095432967.jpg","pic2":"http://192.168.18.135/images/2018/08/20/1534744099510492.jpg","created":1534744104000,"updated":1534744104000,"content":null},{"id":37,"categoryId":89,"title":"a","subTitle":"a","titleDesc":"a","url":"","pic":"http://192.168.18.135/images/2018/08/21/1534829073141001.jpg","pic2":"http://192.168.18.135/images/2018/08/21/1534829078499700.jpg","created":1534829082000,"updated":1534829082000,"content":null}]}[\r][\n]"
-2018-08-23 15:37:12,735 [http-bio-8082-exec-7] [org.apache.http.headers]-[DEBUG] http-outgoing-4 << HTTP/1.1 200 OK
-2018-08-23 15:37:12,735 [http-bio-8082-exec-7] [org.apache.http.headers]-[DEBUG] http-outgoing-4 << Server: Apache-Coyote/1.1
-2018-08-23 15:37:12,735 [http-bio-8082-exec-7] [org.apache.http.headers]-[DEBUG] http-outgoing-4 << Content-Type: application/json;charset=UTF-8
-2018-08-23 15:37:12,735 [http-bio-8082-exec-7] [org.apache.http.headers]-[DEBUG] http-outgoing-4 << Transfer-Encoding: chunked
-2018-08-23 15:37:12,735 [http-bio-8082-exec-7] [org.apache.http.headers]-[DEBUG] http-outgoing-4 << Date: Thu, 23 Aug 2018 07:37:12 GMT
-2018-08-23 15:37:12,735 [http-bio-8082-exec-7] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Connection can be kept alive indefinitely
-2018-08-23 15:37:12,735 [http-bio-8082-exec-7] [org.apache.http.wire]-[DEBUG] http-outgoing-4 << "0[\r][\n]"
-2018-08-23 15:37:12,736 [http-bio-8082-exec-7] [org.apache.http.wire]-[DEBUG] http-outgoing-4 << "[\r][\n]"
-2018-08-23 15:37:12,736 [http-bio-8082-exec-7] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection [id: 4][route: {}->http://localhost:8081] can be kept alive indefinitely
-2018-08-23 15:37:12,736 [http-bio-8082-exec-7] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection released: [id: 4][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
-2018-08-23 15:37:12,736 [http-bio-8082-exec-7] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager is shutting down
-2018-08-23 15:37:12,736 [http-bio-8082-exec-7] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-4: Close connection
-2018-08-23 15:37:12,736 [http-bio-8082-exec-7] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-4: Close connection
-2018-08-23 15:37:12,736 [http-bio-8082-exec-7] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager shut down
-2018-08-23 15:37:12,739 [http-bio-8082-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/jsp/index.jsp]] in DispatcherServlet with name 'taotao-portal'
-2018-08-23 15:37:12,739 [http-bio-8082-exec-7] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'ad1' of type [java.lang.String] to request in view with name 'index'
-2018-08-23 15:37:12,739 [http-bio-8082-exec-7] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Forwarding to resource [/WEB-INF/jsp/index.jsp] in InternalResourceView 'index'
-2018-08-23 15:37:12,748 [http-bio-8082-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-08-23 16:50:29,535 [http-bio-8082-exec-2] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=<div id="activity_header" style="margin:0px;padding:0px;color:#666666;font-family:tahoma, arial, &quot;background-color:#FFFFFF;">
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<a href="https://sale.jd.com/act/XpbwM0G1ZaW.html" target="_blank"><img alt="" class="" src="https://img30.360buyimg.com/jgsq-productsoa/jfs/t25216/239/152027926/20495/68e604c7/5b67b4d6N40446dd5.jpg" /></a><br />
+	</div>
+	<div style="margin:0px;padding:0px;text-align:center;">
+	</div>
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<a href="https://bt.jd.com/v3/activity/open" target="_blank"><img alt="" class="" src="https://img30.360buyimg.com/jgsq-productsoa/jfs/t24568/296/2077591720/53046/c9a03dd5/5b738eb9N8ee7e3d2.jpg" /></a><br />
+	</div>
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<a href="https://sale.jd.com/act/8yaD0qZuE6VFk.html" target="_blank"><img alt="" class="" src="https://img30.360buyimg.com/jgsq-productsoa/jfs/t22843/281/2407950364/77295/f1ae7309/5b7be325N8acb9d81.jpg" /></a>
+	</div>
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<img width="750" height="223" border="0" alt="" class="" src="https://img12.360buyimg.com/cms/jfs/t25219/17/625059972/117957/2e2118e5/5b76605bN96c71f5c.jpg" />
+	</div>
+</div>
+<div id="J-detail-content" style="margin:0px;padding:0px;color:#666666;font-family:tahoma, arial, &quot;background-color:#FFFFFF;">
+	<table id="__01" width="750" height="1272" border="0" align="center" cellpadding="0" cellspacing="0" class="ke-zeroborder">
+		<tbody>
+			<tr>
+				<td>
+					<img alt="" width="750" height="249" border="0" class="" src="https://img10.360buyimg.com/imgzone/jfs/t14764/218/2456158726/53591/401a19b1/5a9cfa70N47f9499b.jpg" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img width="750" height="341" alt="" class="" src="https://img10.360buyimg.com/imgzone/jfs/t18493/37/635247604/42841/b751e11f/5a9cfa70Nd0637367.jpg" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img alt="" width="750" height="405" border="0" class="" src="https://img10.360buyimg.com/imgzone/jfs/t19468/112/760191283/86319/a5a4e631/5aa36123N750f56a3.jpg" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img alt="" width="750" height="277" border="0" class="" src="https://img10.360buyimg.com/imgzone/jfs/t15079/323/2344529912/61849/ce9798d9/5a9cfa70N43f7357c.jpg" />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<img alt="" class="" src="https://img30.360buyimg.com/jgsq-productsoa/jfs/t9724/59/1430591780/2138721/c72f6394/59e0726aN1edf23c4.jpg" />
+	</div>
+</div>
+2018-08-23 16:50:29,537 [http-bio-8082-exec-2] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [<div id="activity_header" style="margin:0px;padding:0px;color:#666666;font-family:tahoma, arial, &quot;background-color:#FFFFFF;">
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<a href="https://sale.jd.com/act/XpbwM0G1ZaW.html" target="_blank"><img alt="" class="" src="https://img30.360buyimg.com/jgsq-productsoa/jfs/t25216/239/152027926/20495/68e604c7/5b67b4d6N40446dd5.jpg" /></a><br />
+	</div>
+	<div style="margin:0px;padding:0px;text-align:center;">
+	</div>
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<a href="https://bt.jd.com/v3/activity/open" target="_blank"><img alt="" class="" src="https://img30.360buyimg.com/jgsq-productsoa/jfs/t24568/296/2077591720/53046/c9a03dd5/5b738eb9N8ee7e3d2.jpg" /></a><br />
+	</div>
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<a href="https://sale.jd.com/act/8yaD0qZuE6VFk.html" target="_blank"><img alt="" class="" src="https://img30.360buyimg.com/jgsq-productsoa/jfs/t22843/281/2407950364/77295/f1ae7309/5b7be325N8acb9d81.jpg" /></a>
+	</div>
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<img width="750" height="223" border="0" alt="" class="" src="https://img12.360buyimg.com/cms/jfs/t25219/17/625059972/117957/2e2118e5/5b76605bN96c71f5c.jpg" />
+	</div>
+</div>
+<div id="J-detail-content" style="margin:0px;padding:0px;color:#666666;font-family:tahoma, arial, &quot;background-color:#FFFFFF;">
+	<table id="__01" width="750" height="1272" border="0" align="center" cellpadding="0" cellspacing="0" class="ke-zeroborder">
+		<tbody>
+			<tr>
+				<td>
+					<img alt="" width="750" height="249" border="0" class="" src="https://img10.360buyimg.com/imgzone/jfs/t14764/218/2456158726/53591/401a19b1/5a9cfa70N47f9499b.jpg" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img width="750" height="341" alt="" class="" src="https://img10.360buyimg.com/imgzone/jfs/t18493/37/635247604/42841/b751e11f/5a9cfa70Nd0637367.jpg" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img alt="" width="750" height="405" border="0" class="" src="https://img10.360buyimg.com/imgzone/jfs/t19468/112/760191283/86319/a5a4e631/5aa36123N750f56a3.jpg" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img alt="" width="750" height="277" border="0" class="" src="https://img10.360buyimg.com/imgzone/jfs/t15079/323/2344529912/61849/ce9798d9/5a9cfa70N43f7357c.jpg" />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div style="margin:0px;padding:0px;text-align:center;">
+		<img alt="" class="" src="https://img30.360buyimg.com/jgsq-productsoa/jfs/t9724/59/1430591780/2138721/c72f6394/59e0726aN1edf23c4.jpg" />
+	</div>
+</div>] as "text/html;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@18d9b6eb]
+2018-08-23 16:50:29,537 [http-bio-8082-exec-2] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-portal': assuming HandlerAdapter completed request handling
+2018-08-23 16:50:29,537 [http-bio-8082-exec-2] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
