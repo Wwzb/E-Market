@@ -16,10 +16,16 @@
 			<artifactId>taotao-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-				<dependency>
+		<dependency>
 			<groupId>com.taotao</groupId>
 			<artifactId>taotao-manager-pojo</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- 单元测试 -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
 		<!-- Spring -->
 		<dependency>
@@ -58,7 +64,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-		<build>
+	<build>
 		<!-- 配置插件 -->
 		<plugins>
 			<plugin>
@@ -67,6 +73,9 @@
 				<configuration>
 					<port>8082</port>
 					<path>/</path>
+					<url>http://192.168.25.137:8080/manager/text</url>
+					<username>tomcat</username>
+					<password>tomcat</password>
 				</configuration>
 			</plugin>
 		</plugins>
