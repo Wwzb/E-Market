@@ -5,8 +5,10 @@ D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\impl\I
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\impl\UserServiceImpl.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\controller\SearchController.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\pojo\CartItem.java
+D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\pojo\Order.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\impl\ContentServiceImpl.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\pojo\SearchResult.java
+D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\controller\OrderController.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\interceptor\LoginInterceptor.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\ContentService.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\CartService.java
@@ -14,6 +16,8 @@ D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\controller\Car
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\pojo\Item.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\impl\CartServiceImpl.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\SearchService.java
+D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\OrderService.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\ItemService.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\controller\ItemController.java
+D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\impl\OrderServiceImpl.java
 D:\JAVAPRO\E-Market\taotao-portal\src\main\java\com\taotao\portal\service\impl\SearchServiceImpl.java

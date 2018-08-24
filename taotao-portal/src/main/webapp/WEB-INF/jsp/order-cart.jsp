@@ -37,7 +37,7 @@
 			<input type="hidden" name="orderItems[${status.index}].price" value="${cart.price}"/>
 			<input type="hidden" name="orderItems[${status.index}].totalFee" value="${cart.price * cart.num}"/>
 			<input type="hidden" name="orderItems[${status.index}].title" value="${cart.title}"/>
-			<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.images[0]}"/>
+			<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.image}"/>
 		</c:forEach>
 		<input type="hidden" name="payment" value="<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${totalPrice/100 }"/>"/>
 		<input type="hidden" name="orderShipping.receiverName" value="入云龙"/>
@@ -79,13 +79,13 @@
 						<b></b>
 						<div class="user-name">
 							<div class="fl">
-								<strong limit="4">入云龙</strong>&nbsp;&nbsp;收
+								<strong limit="4">WZB</strong>&nbsp;&nbsp;收
 							</div>
-							<div class="fr">158****8888</div>
+							<div class="fr">188****3660</div>
 							<div class="clr"></div>
 						</div>
-						<div class="mt10" limit="15">北京 昌平区 五环外六环里</div>
-						<div class="adr-m" limit="30">西三旗 xxxxxxxxx</div>
+						<div class="mt10" limit="15">浙江省宁波市风华路201号</div>
+						<div class="adr-m" limit="30">宁波工程学院</div>
 						<div class="op-btns ar">
 							<a href="#none"
 								class="ftx-05 mr10 setdefault-consignee hide"
@@ -188,7 +188,7 @@
 
 			<div class="p-img">
 				<a target="_blank" href="/item/${cart.id}.html">
-					<img src="${cart.images[0]}" alt="">
+					<img src="${cart.image}" alt="">
 				</a>
 			</div>
 			<div class="goods-msg">
